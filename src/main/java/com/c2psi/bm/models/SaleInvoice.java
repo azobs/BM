@@ -60,7 +60,5 @@ public class SaleInvoice extends AbstractEntity{
     /******************************
      * Relation between entities  *
      * ****************************/
-    //Une liste d'arrivage pour un article
-    @OneToMany(mappedBy = "saleSaleinvoice", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    List<Sale> saleList;
+
 }
