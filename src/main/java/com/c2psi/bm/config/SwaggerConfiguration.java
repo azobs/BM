@@ -37,7 +37,7 @@ public class SwaggerConfiguration {
                 .securitySchemes(Collections.singletonList(apiKey()))
                 .useDefaultResponseMessages(false)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.c2psi.businessmanagement"))
+                .apis(RequestHandlerSelectors.basePackage("com.c2psi.bm"))
                 //.paths(PathSelectors.ant(APP_ROOT+"/**")) valeur avant l'ajout de la securite
                 .paths(PathSelectors.any())
                 .build();

@@ -7,7 +7,7 @@ spring:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
   datasource:
-    url: jdbc:mysql://localhost:3306/BM1?createDatabaseIfNotExist=true&connectionTimeZone=UTC
+    url: jdbc:mysql://localhost:3306/BM?createDatabaseIfNotExist=true&connectionTimeZone=UTC
     username: root
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
