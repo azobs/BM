@@ -1,6 +1,5 @@
 package com.c2psi.bm.validators.stock.provider;
 
-import com.c2psi.bm.dtos.AddressDto;
 import com.c2psi.bm.dtos.stock.provider.ProviderDto;
 
 import javax.validation.ConstraintViolation;

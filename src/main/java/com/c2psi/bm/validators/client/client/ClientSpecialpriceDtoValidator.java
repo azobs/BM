@@ -1,6 +1,5 @@
 package com.c2psi.bm.validators.client.client;
 
-import com.c2psi.bm.dtos.AddressDto;
 import com.c2psi.bm.dtos.client.client.ClientSpecialpriceDto;
 
 import javax.validation.ConstraintViolation;

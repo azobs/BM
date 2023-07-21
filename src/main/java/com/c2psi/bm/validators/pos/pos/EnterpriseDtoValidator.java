@@ -1,6 +1,5 @@
 package com.c2psi.bm.validators.pos.pos;
 
-import com.c2psi.bm.dtos.AddressDto;
 import com.c2psi.bm.dtos.pos.pos.EnterpriseDto;
 
 import javax.validation.ConstraintViolation;

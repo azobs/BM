@@ -1,6 +1,5 @@
 package com.c2psi.bm.validators.stock.price;
 
-import com.c2psi.bm.dtos.AddressDto;
 import com.c2psi.bm.dtos.stock.price.SpecialpriceDto;
 
 import javax.validation.ConstraintViolation;
