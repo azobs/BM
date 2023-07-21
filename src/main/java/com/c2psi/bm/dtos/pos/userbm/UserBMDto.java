@@ -61,6 +61,13 @@ public class UserBMDto {
     @ApiModelProperty(value = "The picture of the UserBM", name = "bmPicture", dataType = "String")
     String bmPicture;
 
+    @NotNull(message = "The UserBM Repassword can't be null")
+    @NotEmpty(message = "The UserBM Repassword can't be empty")
+    @NotBlank(message = "The UserBM Repassword can't be blank")
+    @ApiModelProperty(value = "The Repassword of the UserBM", name = "bmPassword", dataType = "String", required = true,
+            example = "UserPassword")
+    String bmRePassword;
+
     @NotNull(message = "The UserBM state can't be null")
     @NotEmpty(message = "The UserBM state can't be empty")
     @NotBlank(message = "The UserBM state can't be blank")
@@ -103,6 +110,7 @@ public class UserBMDto {
                 .bmName(entity.getBmName())
                 .bmPassword(entity.getBmPassword())
                 .bmPicture(entity.getBmPicture())
+                .bmRePassword(entity.getBmPassword())
                 .bmUserState(entity.getBmUserState().name())
                 .bmSurname(entity.getBmSurname())
                 .bmUsertype(entity.getBmUsertype().name())

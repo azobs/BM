@@ -21,5 +21,6 @@ public class BmApplication {
     public static void main(String[] args) {
         SpringApplication.run(BmApplication.class, args);
     }
+    //http://localhost:8081/swagger-ui.html#/
 
 }
